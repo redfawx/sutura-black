@@ -1,0 +1,277 @@
+// @import './fonts.scss';
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+#app {
+  text-align: center;
+  color: #2c3e50;
+  /* background-color: #171717; */
+  overflow-x: hidden;
+   position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden
+}
+
+
+.page {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+.fixed-wash {
+  background: #ffbd00;
+  visibility: auto;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+body {
+
+  background-color: #171717;
+  font-family: sailec, Helvetica, sans-serif;
+
+}
+
+.navbar {
+
+  color: white;
+
+}
+
+.navbar-brand {
+
+  font-size: 2em;
+
+}
+
+.nav-link {
+  position: relative;
+  color: #818181;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+.nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.quote div {
+  white-space: nowrap;
+}
+
+
+p {
+
+  font-family: sailec !important;
+
+}
+
+
+
+
+
+.nav-link {
+
+  display: inline;
+
+}
+
+.navbar-nav {
+
+  display: inline;
+
+}
+
+.page-container {
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  padding-left: 3vw;
+  padding-right: 3vw;
+
+}
+
+
+.navbar {
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+
+}
+
+@media (min-width: 768px) {
+  .quote {
+
+    // max-width: 50vw;
+
+  }
+}
+
+
+
+.hero {
+
+  color: white;
+
+}
+
+
+.case-study {
+
+  overflow: hidden;
+
+}
+
+.bg-black {
+
+  background-color: black;
+
+}
+
+.cover-photo {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  height: 65%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.ribbon {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  background-color: white;
+  width: 100vw;
+  min-height: 6.5%;
+}
+
+
+.newslab {
+  font-weight: 100;
+  //font-family: Newslab, serif !important;
+}
+
+.gordita {
+  font-weight: 100;
+  font-family: gordita, serif !important;
+}
+
+.callout {
+  width: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.breakout {
+  margin: 0 -100%;
+  margin: 0 calc(50% - 50vw);
+}
+
+.text-black{
+
+  color: black;
+
+}
+
+.color-pallet{
+  min-width: 150px;
+  min-height: 100px;
+  max-width: 150px;
+  max-height: 100px;
+  
+}
+
+.no-dec{
+  text-decoration: none !important;
+}
+
+.works-bg{
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  clip-path: circle(24% at 50% 41%);
+  background-position: 50%;
+  transition: all .5s ease-out;
+  transition-delay: 0s;
+  opacity: .3;
+}
+
+.works-btn{
+  margin-bottom: -10px;
+  margin-top: 10px;
+
+  font-size: 3.5em;
+  cursor: pointer;
+  opacity: .4;
+  transition: all .25s;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .works-btn{
+    font-size: 2em;
+  }
+
+}
+
+
+.f-300{
+  font-weight: 300;
+}
+
+.works-holder{
+
+  height: 35vh;
+
+}
+
