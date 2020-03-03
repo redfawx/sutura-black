@@ -1,7 +1,7 @@
 <template>
 
     
-      <div style="alpha:0;">
+      <div >
 
           <!-- <div class="wash"> -->
           
@@ -50,7 +50,7 @@
 
 <script>
 
-import TweenLite from 'gsap';
+import {TweenLite, Power2} from "gsap";
 
 export default {
   data(){
@@ -219,7 +219,7 @@ export default {
         width: to.width,
         height: to.height,
         autoRound: false,
-        // ease: Power2.easeInOut,
+        ease: Power2.easeInOut,
         onComplete: onComplete };
 
       TweenLite.set(clone, style);

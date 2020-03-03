@@ -210,6 +210,8 @@
 import CaseStudy from '../components/CaseStudy.vue';
 import Navigation from '../components/Navigation.vue';
 import Footer from '../components/Footer.vue';
+import {TweenMax, Power4, TimelineLite} from "gsap";
+import '../assets/vendor/SplitText.min.js';
 
 export default {
   components: {
