@@ -1,18 +1,5 @@
 
-
-<template>
-
-
-
-  <transition 
-        v-on:enter="enter" 
-        v-on:leave="leave"
-        v-bind:css="false"
-        appear
-      >
-
-
-        <template id="page">
+<template id="page">
           <div class="home page">
 
             
@@ -33,7 +20,7 @@
 
                   <div class="row justify-content-between">
 
-                    <div class="case-study d-none px-0 col-md-5 col-12 mx-0 text-left"
+                    <div class="case-study  px-0 col-md-5 col-12 mx-0 text-left"
                     >
 
                       <CaseStudy
@@ -48,7 +35,7 @@
                       ></CaseStudy>
                     </div>
 
-                    <div class="case-study d-none px-0 col-md-6 col-12 mx-0 mt-2 text-left my-md-auto">
+                    <div class="case-study  px-0 col-md-6 col-12 mx-0 mt-2 text-left my-md-auto">
                       <CaseStudy class="mt-6 my-md-auto"
                           ref="case2"
                           name="Callie Tomblin" 
@@ -70,7 +57,7 @@
 
                   <div class="row mt-md-10 justify-content-end">
 
-                     <div class="case-study d-none px-0 col-md-10 col-12 mx-0 mt-2 text-left">
+                     <div class="case-study  px-0 col-md-10 col-12 mx-0 mt-2 text-left">
                         <CaseStudy class="my-lg-5 "
                             ref="case3"
                             name="Jake Matthew Rivers" 
@@ -95,7 +82,7 @@
 
                   <div class="row mt-md-10 justify-content-between">
 
-                     <div class="case-study d-none px-0 col-md-5 my-auto col-12 mx-0 mt-2 text-left">
+                     <div class="case-study  px-0 col-md-5 my-auto col-12 mx-0 mt-2 text-left">
                         <CaseStudy class="my-lg-5"
                             name="Joppa View Elementary School" 
                             thumbnail="jve" 
@@ -106,7 +93,7 @@
                         ></CaseStudy>
                      </div>
 
-                     <div class="case-study d-none px-0 col-md-6 col-12 mx-0 mt-2 text-left">
+                     <div class="case-study  px-0 col-md-6 col-12 mx-0 mt-2 text-left">
                         <CaseStudy class="my-lg-5"
                             name="EMC Performing Arts" 
                             thumbnail="emc" 
@@ -129,17 +116,14 @@
 
           
 
-            <Footer id="footer" class="d-none"></Footer>
+            <Footer id="footer" ></Footer>
            
             
 
           </div>
-        </template>
-      
-  </transition>
-
-
 </template>
+      
+
 
 <style lang="scss" scoped>
 
@@ -226,164 +210,8 @@ export default {
       doneLoad: false,
       nextPage: 'studio-eleven',
     }
-  },
+  }
   
-
-  methods: {
-
-
-    setNewAnimation: function (){
-
-      this.animation = 'none';
-
-      //alert("leaving " + this.animation);
-
-      //this.$router.push('about');
-
-    },
-
-
-		enter: function enter(el, done) {
-
-
-      $.fn.isInViewport = function() {
-        var elementTop = $(this).offset().top;
-        var elementBottom = elementTop + $(this).outerHeight();
-
-        var viewportTop = $(window).scrollTop();
-        var viewportBottom = viewportTop + $(window).height();
-
-        return elementBottom > viewportTop && elementTop < (viewportBottom + 100);
-      };
-
-      
-
-
-      console.log("entering " + this.animation);
-
-        TweenMax.fromTo(el, 1, {
-          autoAlpha: 0
-          },
-        {
-				autoAlpha: 1,
-				scale: 1,
-				transformOrigin: '50% 50%',
-				ease: Power4.easeOut,
-        onComplete: done });
-        
-
-      animateCallout();
-
-
-       
-          
-        function animateCallout(){
-
-
-          $('.quote').css('opacity', '0');
-
-          setTimeout(
-            function(){
-
-              $('.quote').css('opacity', '1');
-
-              var mySplitText = new SplitText($(".quote")),
-              t2 = new TimelineLite();
-
-              mySplitText.split({type:"lines"}); 
-              t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
-
-              function allDone(){
-              	console.log('test here4');
-
-                mySplitText.revert();
-
-              }
-            }, 500
-          );
-          
-          var mySplitText = new SplitText($(".quote")),
-          t2 = new TimelineLite();
-
-          mySplitText.split({type:"lines"}); 
-          t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
-
-          function allDone(){
-
-            mySplitText.revert();
-
-          }
-
-          
-          setTimeout(
-            function(){
-              this.doneLoad = true;
-              $('.case-study').removeClass('d-none');
-              $('#footer').removeClass('d-none');
-            }, 500
-          );
-          
-        }
-
-
-        //end custom
-
-
-
-
-		},
-		leave: function leave(el, done) {
-      
-        //console.log("leaving " + this.animation);
-
-
-        if(this.animation == 'none'){
-          
-          console.log("leaving NONE");
-          TweenMax.fromTo(el, 1, {
-          autoAlpha: 0,
-          scale: 1.5 },
-          {
-            autoAlpha: 1,
-            scale: 1,
-            transformOrigin: '50% 50%',
-            ease: Power4.easeOut,
-            onComplete: done 
-          });
-
-        }else{
-
-          console.log("leaving Slide");
-          
-          
-          TweenMax.fromTo(el, 1, {
-				autoAlpha: 1 },
-			{
-				autoAlpha: 0,
-				ease: Power4.easeOut,
-				onComplete: done });
-
-
-
-        }
-
-        
-
-
-
-
-
-
-        } 
-
-
-
-
-
-
-
-
-    }
 };
 
 
