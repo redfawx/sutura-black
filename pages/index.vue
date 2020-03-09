@@ -5,7 +5,7 @@
 
             
         
-            <Navigation></Navigation>
+           
 
 
             <div id="home-content" class="page-container">
@@ -117,7 +117,7 @@
 
           
 
-            <Footer id="footer" ></Footer>
+            
            
             
 
@@ -194,16 +194,13 @@
 <script>
 
 import CaseStudy from '../components/CaseStudy.vue';
-import Navigation from '../components/Navigation.vue';
-import Footer from '../components/Footer.vue';
+
 import {TweenMax, Power4, TimelineLite} from "gsap";
 import '../assets/vendor/SplitText.min.js';
 
 export default {
   components: {
-      Navigation,
-      Footer,
-      CaseStudy,
+      CaseStudy
   },
   name: "home",
   data() {

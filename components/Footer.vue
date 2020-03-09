@@ -1,6 +1,6 @@
 <template>
 
-    <div class="row mt-5">
+    <div class="row mt-5 no-gutters">
         <div class="row mt-5">
             <div class="row mt-5">
                 <div class="scroller mt-5">
@@ -90,6 +90,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+
+    #footer{
+        // position: absolute;
+        // top: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     .marquee-link{
 

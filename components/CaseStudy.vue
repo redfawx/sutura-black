@@ -121,12 +121,13 @@
         }
       });
 
-      $('.page').bind({
+      $(window).bind({
         resize: function () {
           checkViewStatus();
         },
         scroll: function () {
           checkViewStatus();
+          console.log('checking');
         }
       });
 
@@ -135,7 +136,7 @@
       function checkViewStatus() {
         //console.log(thisObj);
         if ($(thisObj.$el).isInViewport()) {
-          //console.log('in view ');
+          console.log('in view ' + this);
           if (!thisObj.animated) {
             thisObj.animated = true;
             TweenMax.to($(thisObj.$el).find('.hover'), .5, {
