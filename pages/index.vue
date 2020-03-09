@@ -1,5 +1,6 @@
 
 <template id="page">
+    <transition name="enter">
           <div class="home page">
 
             
@@ -121,6 +122,7 @@
             
 
           </div>
+    </transition>
 </template>
       
 
@@ -206,10 +208,33 @@ export default {
   name: "home",
   data() {
     return {
-      animation: 'enter',
-      doneLoad: false,
-      nextPage: 'studio-eleven',
+      
     }
+  },
+  transition: {
+    name: 'enter',
+    enter(el, done){
+      console.log('enter');
+      var mySplitText = new SplitText($(".quote")),
+      t2 = new TimelineLite();
+
+      mySplitText.split({type:"lines"}); 
+      t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
+
+      function allDone(){
+        mySplitText.revert();
+      }
+
+    },
+    leave(el, done){
+    
+          console.log("leaving NONE");
+          TweenMax.to(el, .5, { opacity: 0, ease: Power4.easeOut, onComplete: done});
+    }
+  },
+  
+  methods:{
+    
   }
   
 };
