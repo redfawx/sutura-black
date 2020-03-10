@@ -127,16 +127,13 @@
         },
         scroll: function () {
           checkViewStatus();
-          console.log('checking');
         }
       });
 
       setTimeout(checkViewStatus, 1000);
 
       function checkViewStatus() {
-        //console.log(thisObj);
         if ($(thisObj.$el).isInViewport()) {
-          console.log('in view ' + this);
           if (!thisObj.animated) {
             thisObj.animated = true;
             TweenMax.to($(thisObj.$el).find('.hover'), .5, {
