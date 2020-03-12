@@ -10,13 +10,25 @@
 
             <div id="home-content" class="page-container">
 
-              <div class="row mt-md-5 pt-5 mb-5 pb-lg-5">
-                <div class="col-12 col-lg-12 px-0 mt-2">
-                  <h1 class="quote text-left text-white mb-0 mt-lg-3">A multimodal designer based in Baltimore, MD. Creating brand identities, applications, websites and visual experiences to help organizations innovate their business.</h1>
-                </div>
-              </div>
+              
 
-              <div class="row mx-0 mt-md-5">
+            <div class="d-flex" style=" min-height: 80vh;">
+              <div class="my-auto">
+                  <h1 class="quote text-left text-white mb-0 mt-lg-3">
+                    <span style="font-weight: 300; ">SUTURA</span> is a web design and<br class="d-none d-md-block"> branding agency in Baltimore.
+                  </h1>
+              </div>
+              <div style="position: absolute; max-width: 1002px; width: 67vw; right: 0; top: 50%; transform: translateY(-50%);">
+                <div style="background-color: #181818c4; width: 100%; height: 100%; position: absolute;"></div>
+                <video playsinline="" autoplay="autoplay" loop="loop" muted="muted" preload="auto" class="my-auto mx-auto w-100"><source :src="require('@/assets/home/promo.mp4')" type="video/mp4">
+                </video>
+              </div>
+            </div>
+
+
+            
+
+              <div class="row mx-0 mt-md-5 pt-md-5">
                 <div class="col-12 px-0  mx-0">
 
                   <div class="row justify-content-between">
@@ -130,14 +142,22 @@
 <style lang="scss" scoped>
 
   .quote div {
-    white-space: nowrap;
+    white-space: wrap;
     width: 50%;
+  }
+
+  .quote:first-child::nth-line(-1+2) {
+    font-variant-caps: small-caps;
+    color: red !important;
   }
 
   .quote {
     box-sizing: border-box;
-    font-size: 2.7em;
     line-height: 1.5em;
+    font-weight: 700;
+    font-size: 4em;
+    z-index: 100;
+    position: relative
   }
 
   // Medium devices (tablets, 768px and up)
@@ -194,13 +214,15 @@
 <script>
 
 import CaseStudy from '../components/CaseStudy.vue';
+import PromoVideo from '../components/PromoVideo.vue';
 
 import {TweenMax, Power4, TimelineLite} from "gsap";
 import '../assets/vendor/SplitText.min.js';
 
 export default {
   components: {
-      CaseStudy
+      CaseStudy,
+      PromoVideo
   },
   name: "home",
   data() {
@@ -211,16 +233,16 @@ export default {
   transition: {
     name: 'enter',
     enter(el, done){
-      console.log('enter');
-      var mySplitText = new SplitText($(".quote")),
-      t2 = new TimelineLite();
+      // console.log('enter');
+      // var mySplitText = new SplitText($(".quote")),
+      // t2 = new TimelineLite();
 
-      mySplitText.split({type:"lines"}); 
-      t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
+      // mySplitText.split({type:"lines"}); 
+      // t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
 
-      function allDone(){
-        mySplitText.revert();
-      }
+      // function allDone(){
+      //   mySplitText.revert();
+      // }
 
     },
     leave(el, done){
