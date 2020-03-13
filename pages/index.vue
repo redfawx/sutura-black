@@ -42,39 +42,7 @@
 
         <ServicesList></ServicesList>
 
-        <div class="row my-5">
-          <h4 style="font-weight: bolder;" class="text-white mx-auto pt-5">Featured Engagements</h4>
-        </div>
-
-        <div class="row justify-content-center mt-5 ">
-          <div class="col-4 my-auto">
-            <div class="img-holder d-flex my-auto mb-5">
-              <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/evangelin.png')" />
-            </div>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
-            </p>
-          </div>
-          <div class="col-4 my-auto">
-            <div class="img-holder d-flex my-auto mb-5">
-              <!-- <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" /> -->
-            </div>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
-            </p>
-          </div>
-          <div class="col-4 my-auto">
-            <div class="img-holder d-flex my-auto mb-5">
-              <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/emc.png')" />
-            </div>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
-            </p>
-          </div>
-        </div>
-        <div class="row my-5 py-5">
-          <a href="#" class="cta-button mx-auto" style="text-decoration: underline;">View all clients</a>
-        </div>
+        <ClientsList></ClientsList>
 
 
         <div class="row mx-0 mt-md-5 pt-md-5">
@@ -235,6 +203,7 @@
   import CaseStudy from '../components/CaseStudy.vue';
   import PromoVideo from '../components/PromoVideo.vue';
   import ServicesList from '../components/ServicesList.vue';
+  import ClientsList from '../components/ClientsList.vue';
 
   import {
     TweenMax,
@@ -247,7 +216,8 @@
     components: {
       CaseStudy,
       PromoVideo,
-      ServicesList
+      ServicesList,
+      ClientsList
     },
     name: "home",
     data() {

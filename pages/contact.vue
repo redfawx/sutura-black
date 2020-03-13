@@ -16,8 +16,6 @@
           <div class="home page">
 
             
-        
-            <Navigation></Navigation>
 
 
 
@@ -71,7 +69,6 @@
 
           
 
-            <Footer></Footer>
            
             
 
@@ -190,11 +187,9 @@
 <script>
 /* eslint-disable */
 import CaseStudy from '../components/CaseStudy.vue';
-import Navigation from '../components/Navigation.vue';
 import Footer from '../components/Footer.vue';
 export default {
   components: {
-      Navigation,
       Footer,
       CaseStudy,
   },

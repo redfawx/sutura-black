@@ -339,4 +339,10 @@ p {
 
 .service-dropdown{
   cursor: pointer;
+  
+  h3{
+    &:hover{
+      color: #9e9e9e !important;
+    }
+  }
 }
