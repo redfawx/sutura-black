@@ -13,12 +13,20 @@
 
         <div class="d-flex" style=" min-height: 80vh;">
           <div class="my-auto">
-            <h1 class="quote text-left text-white mb-0 mt-lg-3">
-              <span style="font-weight: 300; ">SUTURA</span> is a web design and<br class="d-none d-md-block"> branding
-              agency in Baltimore.
-            </h1>
+            <div style="position: relative;">
+              <h1 id="line-1" class="quote hide text-left text-white mb-0 mt-lg-3">
+                <span style="font-weight: 300; ">SUTURA</span> is a web design and
+              </h1>
+              <div id="blind-1" class="blind"></div>
+            </div>
+            <div style="position: relative;">
+              <h1 id="line-2" class="quote hide text-left text-white mb-0 mt-lg-3">
+                branding agency in Baltimore.
+              </h1>
+              <div id="blind-2" class="blind"></div>
+            </div>
           </div>
-          <div
+          <div id="video-container"
             style="position: absolute; max-width: 1002px; width: 67vw; right: 0; top: 50%; transform: translateY(-50%);">
             <div style="background-color: #181818c4; width: 100%; height: 100%; position: absolute;"></div>
             <video playsinline="" autoplay="autoplay" loop="loop" muted="muted" preload="auto"
@@ -36,7 +44,7 @@
         <div class="row pb-5 my-5">
           <div class="col-7">
             <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Brand Identity</h3>
-            <svg style="max-width: 20px; color: white; position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
+            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
           </div>
           <div class="col-8 py-4">
             <h4 class="text-white font-weight-lighter">
@@ -50,15 +58,15 @@ design to communications and style guides.
           </div>
           <div class="col-7">
             <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">User Experience</h3>
-            <svg style="max-width: 20px; color: white; position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
+            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
           </div>
           <div class="col-7">
             <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Development</h3>
-            <svg style="max-width: 20px; color: white; position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
+            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
           </div>
           <div class="col-7">
             <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Websites</h3>
-            <svg style="max-width: 20px; color: white; position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
+            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
           </div>
         </div>
 
@@ -161,10 +169,10 @@ design to communications and style guides.
 
 
 <style lang="scss" scoped>
-  .quote div {
-    white-space: wrap;
-    width: 50%;
-  }
+  // .quote div {
+  //   white-space: wrap;
+  //   width: 50%;
+  // }
 
   .quote:first-child::nth-line(-1+2) {
     font-variant-caps: small-caps;
@@ -256,16 +264,21 @@ design to communications and style guides.
     transition: {
       name: 'enter',
       enter(el, done) {
-        // console.log('enter');
-        // var mySplitText = new SplitText($(".quote")),
-        // t2 = new TimelineLite();
+        console.log('enter');
 
-        // mySplitText.split({type:"lines"}); 
-        // t2.staggerFrom(mySplitText.lines, 0.75, {delay: .5, opacity:0, y: 100, ease:Power4.easeOut}, 0.2, 0, allDone);
 
-        // function allDone(){
-        //   mySplitText.revert();
-        // }
+        TweenMax.from($('#blind-1'), .45, {delay: .5, scaleX: 0, ease:Power4.easeOut, transformOrigin:"left", onComplete: function(){
+          $('#line-1').removeClass('hide');
+          TweenMax.to($('#blind-1'), .45, { scaleX: 0, ease:Power4.easeOut, transformOrigin:"right"});
+        }});
+
+        TweenMax.from($('#blind-2'), .45, {delay: .75, scaleX: 0, ease:Power4.easeOut, transformOrigin:"left", onComplete: function(){
+          $('#line-2').removeClass('hide');
+          TweenMax.to($('#blind-2'), .45, { scaleX: 0, ease:Power4.easeOut, transformOrigin:"right"});
+        }});
+
+        TweenMax.from($('#video-container'), 2, {delay: .45, alpha: 0, ease:Power4.easeOut});
+
 
       },
       leave(el, done) {
