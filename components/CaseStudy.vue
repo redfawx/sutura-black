@@ -142,7 +142,7 @@
             });
             var thisColor = thisObj.color;
             TweenMax.from($(thisObj.$el), 1, {
-              delay: 1,
+              // delay: 1,
               alpha: 0,
               scale: .8,
               ease: Power3.easeOut,

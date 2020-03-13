@@ -70,19 +70,39 @@ design to communications and style guides.
           </div>
         </div>
 
-        <!-- <div class="row my-5">
-          <h4 class="text-white mx-auto pt-5">We create professional digital products,
-            communications, and brands.</h4>
+        <div class="row my-5">
+          <h4 style="font-weight: bolder;" class="text-white mx-auto pt-5">FEATURED ENGAGEMENTS</h4>
         </div>
 
         <div class="row justify-content-center mt-5 ">
-          <div class="col-3">
-            <img class="d-flex mx-auto" :src="require('@/assets/home/logos/emc.png')" />
+          <div class="col-4 my-auto">
+            <div class="img-holder d-flex my-auto mb-5">
+              <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/evangelin.png')" />
+            </div>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
+            </p>
           </div>
-          <div class="col-3">
-            <img class="d-flex mx-auto" :src="require('@/assets/home/logos/evangelin.png')" />
+          <div class="col-4 my-auto">
+            <div class="img-holder d-flex my-auto mb-5">
+              <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" />
+            </div>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
+            </p>
           </div>
-        </div> -->
+          <div class="col-4 my-auto">
+            <div class="img-holder d-flex my-auto mb-5">
+              <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/emc.png')" />
+            </div>
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
+            </p>
+          </div>
+        </div>
+        <div class="row my-5 py-5">
+          <h4 class="text-white mx-auto font-weight-lighter" style="text-decoration: underline;">View all clients</h4>
+        </div>
 
 
         <div class="row mx-0 mt-md-5 pt-md-5">
@@ -151,7 +171,7 @@ design to communications and style guides.
         </div>
 
         <div class="row mb-5 pt-4 pb-5">
-          <h4 class="text-white mx-auto font-weight-lighter" style="text-decoration: underline;">View all clients</h4>
+          <h4 class="text-white mx-auto font-weight-lighter" style="text-decoration: underline;">View more case studies</h4>
         </div>
 
       </div>
