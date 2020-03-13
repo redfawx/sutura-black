@@ -11,16 +11,16 @@
 
 
 
-        <div class="d-flex" style=" min-height: 80vh;">
+        <div class="d-flex" style=" min-height: 90vh;">
           <div class="my-auto">
             <div style="position: relative;">
-              <h1 id="line-1" class="quote hide text-left text-white mb-0 mt-lg-3">
+              <h1 id="line-1" class="quote hide text-left text-white mb-0">
                 Sutura is a web design and
               </h1>
               <div id="blind-1" class="blind"></div>
             </div>
             <div style="position: relative;">
-              <h1 id="line-2" class="quote hide text-left text-white mb-0 mt-lg-3">
+              <h1 id="line-2" class="quote hide text-left text-white mb-0 mt-4">
                 branding agency in Baltimore.
               </h1>
               <div id="blind-2" class="blind"></div>
@@ -43,7 +43,7 @@
         <ServicesList></ServicesList>
 
         <div class="row my-5">
-          <h4 style="font-weight: bolder;" class="text-white mx-auto pt-5">FEATURED ENGAGEMENTS</h4>
+          <h4 style="font-weight: bolder;" class="text-white mx-auto pt-5">Featured Engagements</h4>
         </div>
 
         <div class="row justify-content-center mt-5 ">
