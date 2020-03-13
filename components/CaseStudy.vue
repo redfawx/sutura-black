@@ -130,7 +130,7 @@
         }
       });
 
-      setTimeout(checkViewStatus, 1000);
+      //setTimeout(checkViewStatus, 1000);
 
       function checkViewStatus() {
         if ($(thisObj.$el).isInViewport()) {

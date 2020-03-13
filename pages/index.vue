@@ -15,7 +15,7 @@
           <div class="my-auto">
             <div style="position: relative;">
               <h1 id="line-1" class="quote hide text-left text-white mb-0 mt-lg-3">
-                <span style="font-weight: 300; ">SUTURA</span> is a web design and
+                Sutura is a web design and
               </h1>
               <div id="blind-1" class="blind"></div>
             </div>
@@ -26,8 +26,8 @@
               <div id="blind-2" class="blind"></div>
             </div>
             <div class="row pl-3 mt-5" style="z-index: 100; position: relative;">
-              <a href="#" class="mr-5 cta-button">CONTACT</a>
-              <a href="#" class="mr-5 cta-button">SERVICES</a>
+              <a href="#" class="mr-5 cta-button">Contact</a>
+              <a href="#" class="mr-5 cta-button">Services</a>
             </div>
           </div>
           <div id="video-container"
@@ -40,39 +40,7 @@
           </div>
         </div>
 
-        <div class="row my-5">
-          <h4 style="font-weight: bolder;" class="text-white pt-5">We create professional digital products,
-            communications, and brands.</h4>
-        </div>
-        
-        <div class="row pb-5 my-5">
-          <div class="col-7">
-            <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Brand Identity</h3>
-            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
-          </div>
-          <div class="col-8 py-4">
-            <h4 class="text-white font-weight-lighter">
-              A brand today is all about how it makes your
-customers feel. It's not a logo or visual identity but
-rather a cohesive system that spans across all
-mediums and touchpoints. We're a branding firm
-offering a complete solution from naming and logo
-design to communications and style guides.
-            </h4>
-          </div>
-          <div class="col-7">
-            <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">User Experience</h3>
-            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
-          </div>
-          <div class="col-7">
-            <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Development</h3>
-            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
-          </div>
-          <div class="col-7">
-            <h3 style="font-weight: 400 !important;" class="text-white mx-auto font-weight-lighter">Websites</h3>
-            <svg style="max-width: 20px; color: rgb(255, 189, 0); position: absolute; top: 0px; left: 250px;" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-2x"><path fill="currentColor" d="M287.968 160H32.038c-28.425 0-42.767 34.488-22.627 54.627l127.962 128c12.496 12.496 32.758 12.497 45.255 0l127.968-128C330.695 194.528 316.45 160 287.968 160zM160 320L32 192h256L160 320z" class=""></path></svg>
-          </div>
-        </div>
+        <ServicesList></ServicesList>
 
         <div class="row my-5">
           <h4 style="font-weight: bolder;" class="text-white mx-auto pt-5">FEATURED ENGAGEMENTS</h4>
@@ -105,7 +73,7 @@ design to communications and style guides.
           </div>
         </div>
         <div class="row my-5 py-5">
-          <h4 class="text-white mx-auto font-weight-lighter" style="text-decoration: underline;">View all clients</h4>
+          <a href="#" class="cta-button mx-auto" style="text-decoration: underline;">View all clients</a>
         </div>
 
 
@@ -175,7 +143,7 @@ design to communications and style guides.
         </div>
 
         <div class="row mb-5 pt-4 pb-5">
-          <h4 class="text-white mx-auto font-weight-lighter" style="text-decoration: underline;">View more case studies</h4>
+           <a href="#" class="cta-button mx-auto" style="text-decoration: underline;">View all case studies</a>
         </div>
 
       </div>
@@ -266,6 +234,7 @@ design to communications and style guides.
 <script>
   import CaseStudy from '../components/CaseStudy.vue';
   import PromoVideo from '../components/PromoVideo.vue';
+  import ServicesList from '../components/ServicesList.vue';
 
   import {
     TweenMax,
@@ -277,7 +246,8 @@ design to communications and style guides.
   export default {
     components: {
       CaseStudy,
-      PromoVideo
+      PromoVideo,
+      ServicesList
     },
     name: "home",
     data() {
