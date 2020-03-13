@@ -137,7 +137,7 @@
           if (!thisObj.animated) {
             thisObj.animated = true;
             TweenMax.to($(thisObj.$el).find('.hover'), .5, {
-              delay: .5,
+              //delay: .5,
               opacity: .01
             });
             var thisColor = thisObj.color;
