@@ -302,7 +302,15 @@ design to communications and style guides.
         }});
 
         TweenMax.from($('#video-container'), 2, {delay: .45, alpha: 0, ease:Power4.easeOut});
+        
 
+        $('.cta-button').css('color', 'transparent');
+        TweenMax.from($('.cta-button').after(), .45, {delay: .75, scaleX: 0, ease:Power4.easeOut, transformOrigin:"left", onComplete: function(){
+         
+          TweenMax.to($('.cta-button'), .5, {color: 'white', ease:Power4.easeOut});
+        }});
+
+        
 
       },
       leave(el, done) {
