@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main role="main" class="main-content">
+    <main role="main" style="max-width: 100vw;" class="main-content">
       <canvas id="noise" class="noise"></canvas>
     </main>
     <Navigation></Navigation>
@@ -151,7 +151,7 @@
     height: 100%;
 
     pointer-events: none;
-    opacity: 1;
+    opacity: .4;
   }
 
 

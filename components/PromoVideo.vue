@@ -20,7 +20,7 @@ export default {
   #wash {
     width: 100%;
     height: 100%;
-    background-color: #1f1b0d;
+    background-color: #0b0b0b;
     opacity: .5;
     position: absolute;
   }

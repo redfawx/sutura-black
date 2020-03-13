@@ -7,7 +7,7 @@
 
 
 
-      <div id="home-content" class="page-container">
+      <div id="home-content"  class="page-container">
 
 
 
@@ -25,9 +25,13 @@
               </h1>
               <div id="blind-2" class="blind"></div>
             </div>
+            <div class="row pl-3 mt-5" style="z-index: 100; position: relative;">
+              <a href="#" class="mr-5 cta-button">CONTACT</a>
+              <a href="#" class="mr-5 cta-button">SERVICES</a>
+            </div>
           </div>
           <div id="video-container"
-            style="position: absolute; max-width: 1002px; width: 67vw; right: 0; top: 50%; transform: translateY(-50%);">
+            style="z-index: -1; position: absolute; max-width: 1002px; width: 67vw; right: 0; top: 50%; transform: translateY(-50%);">
             <div style="background-color: #181818c4; width: 100%; height: 100%; position: absolute;"></div>
             <video playsinline="" autoplay="autoplay" loop="loop" muted="muted" preload="auto"
               class="my-auto mx-auto w-100">
@@ -85,7 +89,7 @@ design to communications and style guides.
           </div>
           <div class="col-4 my-auto">
             <div class="img-holder d-flex my-auto mb-5">
-              <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" />
+              <!-- <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" /> -->
             </div>
             <p class="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta repudiandae vitae, nesciunt a doloribus repellat ut enim corporis. Quisquam ratione harum, officiis assumenda hic praesentium labore.
