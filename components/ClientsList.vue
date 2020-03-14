@@ -17,8 +17,8 @@
       </div>
       <div class="col-4 my-auto">
         <div class="img-holder d-flex my-auto mb-5">
-          <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/evangelin.png')" />
-          <!-- <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" /> -->
+          <!-- <img class="d-flex mx-auto my-auto " :src="require('@/assets/home/logos/evangelin.png')" /> -->
+          <img style="max-width: 180px;" class="d-flex mx-auto my-auto  img-fluid" :src="require('@/assets/home/logos/studio-eleven.png')" />
         </div>
         <p class="mt-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi consequatur nihil soluta
