@@ -332,8 +332,8 @@
 
           console.log(thisObj.$parent.nextPage);
           setTimeout(() => thisObj.$router.push({
-            path: '/' + thisObj.$parent.nextPage
-          }), 200);
+            path: '/works/' + thisObj.$parent.nextPage, params: { animation: 'fromHome' }
+          },  ), 200);
 
         }
 
