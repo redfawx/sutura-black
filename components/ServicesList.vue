@@ -21,7 +21,7 @@
           </div>
           <div id="user" class="col-md-8 col-12 pl-3 py-4 d-none">
             <h4 class="text-white font-weight-lighter">
-              A brand today is all about how it makes your customers feel. It's not a logo or visual identity but rather a cohesive system that spans across all mediums and touchpoints. We're a branding firm offering a complete solution from naming and logo design to communications and style guides.
+              We're a user experience and user interface design agency focused on improving conversion and increasing customer engagement. Our UI/UX design capabilities don't stop at mobile apps, web applications, or multi‑platform digital experiences. We create products and services that provide outstanding usability while fully embracing your brand's personality.
             </h4>
           </div>
           <div @click="toggleService('dev')"  class="col-md-7 col-12 service-dropdown">
@@ -30,7 +30,7 @@
           </div>
           <div id="dev" class="col-md-8 col-12 pl-3 py-4 d-none">
             <h4 class="text-white font-weight-lighter">
-              A brand today is all about how it makes your customers feel. It's not a logo or visual identity but rather a cohesive system that spans across all mediums and touchpoints. We're a branding firm offering a complete solution from naming and logo design to communications and style guides.
+              Our full‑stack engineering team provides front‑end and back‑end development services working closely with our designers. As a full‑service app development company, we build native mobile apps for iOS and Android, web applications, apps for wearables, and B2B/enterprise software.
             </h4>
           </div>
           <div @click="toggleService('web')"  class="col-md-7 col-12 service-dropdown">
@@ -39,7 +39,7 @@
           </div>
           <div id="web" class="col-md-8 col-12 pl-3 py-4 d-none">
             <h4 class="text-white font-weight-lighter">
-              A brand today is all about how it makes your customers feel. It's not a logo or visual identity but rather a cohesive system that spans across all mediums and touchpoints. We're a branding firm offering a complete solution from naming and logo design to communications and style guides.
+              We're a web design agency creating next‑level websites by strategically blending user experience and brand storytelling. Our web designers and developers create responsive websites that feel at home on any device. Product landing pages, marketing sites, or company intranet portals – we do it all.
             </h4>
           </div>
         </div>
