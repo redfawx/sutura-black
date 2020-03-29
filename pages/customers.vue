@@ -81,7 +81,7 @@
                     <div class="col-12 col-md-4 mt-5 pt-5">
                         <h4 class="text-white font-weight-light">Callie Tomblin</h4>
                         <p style="font-size: 1em !important; max-width: 250px;">
-                            Strategy, web design, and development for Evangelin’s Boutique Salon.
+                            Strategy, web design, and development for Callie Tomblin's musican website and social media promotion.
                         </p>
                     </div>
                 </div>
