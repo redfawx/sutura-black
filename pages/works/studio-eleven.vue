@@ -78,8 +78,54 @@
                 </video>
               </div>
             </div>
+            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
+              style="background-color: white; border: solid 10px #ccc8c8;">
+              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/website-1.png')">
+              </div>
+            </div>
+            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
+              style="background-color: white; border: solid 10px #ccc8c8;">
+              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/website-2.png')">
+              </div>
+            </div>
+            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
+              style="background-color: white; border: solid 10px #ccc8c8;">
+              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/website-3.png')">
+              </div>
+            </div>
+            <div class="row d-none d-md-block mt-5 mb-5 p-3 justify-content-center"
+              style="background-color: white; border: solid 10px #ccc8c8;">
+              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/website-4.png')">
+              </div>
+            </div>
+            <div class="row breakout pt-5 mt-5 p-3 py-5 justify-content-center" style="background-color: #f0f0f0;">
+              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/mobile/1.jpg')">
+              </div>
+              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/mobile/2.jpg')">
+              </div>
+              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/mobile/3.jpg')">
+              </div>
+              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
+                <img style="width: 100%; height: auto;"
+                  :src="require('@/assets/case-studies/studio-eleven/mobile/4.jpg')">
+              </div>
+            </div>
             <div class="row py-5 px-md-5 breakout justify-content-center" style="background-color: white;">
-              <div class="px-5 my-auto col-12 col-lg-6" style="background-position: 100% 27%; ">
+              <div class="px-5 my-auto col-12 col-lg-6 col-xl-4" style="background-position: 100% 27%; ">
                 <p class="px-lg-5 pt-lg-0 text-left text-black" style="font-size: 1.5em; font-weight: 100;">
                   <span class="text-left newslab" style="font-size: 1.1em;">
                     ESTABLISHING A BRAND
@@ -91,7 +137,7 @@
                   </span>
                 </p>
               </div>
-              <div class="px-5 my-auto col-12 col-lg-6 d-flex mx-auto" style="background-position: 100% 27%; ">
+              <div class="px-5 my-auto col-12 col-lg-6 col-xl-4 d-flex mx-auto" style="background-position: 100% 27%; ">
                 <img style="max-width: 100%;" :src="require('@/assets/case-studies/studio-eleven/logo.png')">
               </div>
               <div class="col-12 mt-5 text-center">
@@ -174,52 +220,7 @@
                 </p>
               </div>
             </div>
-            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
-              style="background-color: white; border: solid 10px #ccc8c8;">
-              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/website-1.png')">
-              </div>
-            </div>
-            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
-              style="background-color: white; border: solid 10px #ccc8c8;">
-              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/website-2.png')">
-              </div>
-            </div>
-            <div class="row d-none d-md-block mt-5 p-3 justify-content-center"
-              style="background-color: white; border: solid 10px #ccc8c8;">
-              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/website-3.png')">
-              </div>
-            </div>
-            <div class="row d-none d-md-block mt-5 mb-5 p-3 justify-content-center"
-              style="background-color: white; border: solid 10px #ccc8c8;">
-              <div class="px-5 my-auto col-12" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/website-4.png')">
-              </div>
-            </div>
-            <div class="row breakout pt-5 mt-5 p-3 py-5 justify-content-center" style="background-color: #f0f0f0;">
-              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/mobile/1.jpg')">
-              </div>
-              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/mobile/2.jpg')">
-              </div>
-              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/mobile/3.jpg')">
-              </div>
-              <div class="px-5 my-5 my-md-auto col-12 col-md-3" style="background-position: 100% 27%; ">
-                <img style="width: 100%; height: auto;"
-                  :src="require('@/assets/case-studies/studio-eleven/mobile/4.jpg')">
-              </div>
-            </div>
+            
             <div class="row justify-content-center mt-5 mb-lg-3 pt-5">
               <h3 class="text-white">See more of our work!</h3>
             </div>
@@ -375,8 +376,6 @@
   } from "gsap";
 
   export default {
-    components: {
-    },
     name: "home",
     props:{
       errors: String
