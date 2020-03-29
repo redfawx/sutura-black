@@ -19,7 +19,7 @@
 
       <router-link class="nav-item nav-link mx-2" to="/works">services</router-link>
 
-      <router-link class="nav-item nav-link mx-2" to="/works">customers</router-link>
+      <router-link class="nav-item nav-link mx-2" to="/customers">customers</router-link>
 
       <router-link class="nav-item nav-link mx-2" to="/about">about</router-link>
 
