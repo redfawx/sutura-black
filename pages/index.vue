@@ -129,10 +129,6 @@
 
 
 <style lang="scss" scoped>
-  // .quote div {
-  //   white-space: wrap;
-  //   width: 50%;
-  // }
 
   .quote:first-child::nth-line(-1+2) {
     font-variant-caps: small-caps;
@@ -172,7 +168,6 @@
     font-size: 8em;
     color: #1d1c1c;
     line-height: 1em;
-    // width: 118vw;
     display: inline;
 
   }
@@ -228,7 +223,7 @@
     transition: {
       name: 'enter',
       enter(el, done) {
-        console.log('enter');
+       
 
 
         TweenMax.from($('#blind-1'), .45, {delay: .5, scaleX: 0, ease:Power4.easeOut, transformOrigin:"left", onComplete: function(){
@@ -250,7 +245,7 @@
           TweenMax.to($('.cta-button'), .5, {color: 'white', ease:Power4.easeOut});
         }});
 
-        
+         console.log('enter');
 
       },
       leave(el, done) {
